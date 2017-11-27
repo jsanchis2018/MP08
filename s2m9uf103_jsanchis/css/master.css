@@ -1,0 +1,220 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #e6e8eb;
+  font-family: Lucida, Tahoma, San Francisco, Segoe UI, Roboto;
+}
+
+#barra{
+  height: 43px;
+  background-color: #395ca9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#contenidor{
+  width: 852px;
+  background-color: #FFF;
+  margin: 0 auto;
+}
+
+#portada{
+  height: 241px;
+  background-image: url(../img/baner.png);
+  margin-top: 43px;
+  background-color: red;
+}
+
+#nom{
+  width: 334px;
+  top: 188px;
+  left: 200px;
+  position: relative;
+  color: #fff;
+  text-shadow: 0 0 2px black;
+
+}
+
+#perfil{
+  background-color: pink;
+  border: solid 2px white;
+  border-radius: 4px;
+  top: 57px;
+  left: 23px;
+  position: relative;
+  z-index: 200;
+  box-shadow: 0 0 1px #333;
+}
+
+#menu{
+  height: 44px;
+  background-color: #e6e8eb;
+  padding: 0px;
+  margin: 0 0 0 192px;
+  width: 471px;
+  border-bottom: 1px solid #e6e8eb;
+}
+
+#menu li{
+  float: left;
+  display: block;
+  font-weight: bold;
+  color: #334f8d;
+  background-color: #FFF;
+  height: 44px;
+  padding: 0 18px;
+  margin: 0 0 0 1px;
+  line-height: 44px;
+}
+
+#menu li:hover{
+  color: #000;
+  background-image: url(../img/select.gif);
+  background-repeat: no-repeat;
+  background-position: 50% 36px;
+}
+
+#contingut{
+  border-top: solid 1px #e6e8eb;
+
+}
+
+#menu ul{
+  background-color: #e6e8eb;
+}
+
+.esquerra{
+  width: 323px;
+  border: solid 1px #CCC;
+  margin: 10px 0;
+  border-radius: 3px;
+
+}
+
+.esquerra h4{
+  background-color: yellow;
+  height: 14px;
+  padding: 5px;
+  font-weight: normal;
+  font-size: 18px;
+  text-indent: 36px;
+  background-image: url(../img/lateral.png);
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+#presentacio h4{
+  background-position: 0 -0px;
+}
+
+#presentacio li{
+  height: 30px;
+  border-top: solid 1px grey;
+  display: block;
+  background-image: url(../img/icones_estudis.png);
+  background-repeat: no-repeat;
+  text-indent: 15px;
+  font-size: 12px;
+}
+
+#presentacio ul{
+
+}
+
+#fotos h4{
+  background-position: 0 -24px;
+}
+
+#fotos li{
+  display: block;
+}
+
+#amics h4{
+  background-position: 0 -48px;
+}
+#amics li{
+
+}
+
+#presentacio .estudis{
+  background-image: url(../img/icones_estudis.png);
+}
+
+#presentacio .viu{
+  background-image: url(../img/icones_domicili.png);
+}
+
+#presentacio .treballa{
+  background-image: url(../img/icones_feina.png);
+}
+
+#presentacio .relacio{
+  background-image: url(../img/icones_sentimental.png);
+}
+
+#presentacio .calendari{
+  background-image: url(../img/icones_esdeveniments.png);
+}
+
+#presentacio .pagina{
+  background-image: url(../img/icones_rss.png);
+}
+
+#fotos ul li{
+  background-color: green;
+  display: block;
+  width: 99px;
+  height: 99px;
+  margin: 4px;
+  float: left;
+  background-size: 99px 99px;
+  color: transparent;
+}
+
+#fotos ul{
+  overflow:hidden; /*anti texto desbordado*/
+  margin: 0;
+  padding: 0;
+}
+
+#f01{
+  background-image: url(../img/profiles/f1.jpg);
+}
+
+#f02{
+  background-image: url(../img/profiles/f2.jpg);
+}
+
+#f03{
+  background-image: url(../img/profiles/f3.jpg);
+}
+
+#f04{
+  background-image: url(../img/profiles/f4.jpg);
+}
+
+#f05{
+  background-image: url(../img/profiles/f5.jpg);
+}
+
+#f06{
+  background-image: url(../img/profiles/f6.jpg);
+}
+
+#f07{
+  background-image: url(../img/profiles/f7.jpg);
+}
+
+#f08{
+  background-image: url(../img/profiles/f8.png);
+}
+
+#f09{
+  background-image: url(../img/profiles/f9.jpg);
+}
+
+.esquerra ul{
+margin-top: 20px;
+}
