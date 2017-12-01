@@ -12,6 +12,7 @@ body{
   top: 0;
   left: 0;
   right: 0;
+  z-index: 201;
 }
 
 #contenidor{
@@ -55,6 +56,7 @@ body{
   margin: 0 0 0 192px;
   width: 471px;
   border-bottom: 1px solid #e6e8eb;
+
 }
 
 #menu li{
@@ -78,7 +80,7 @@ body{
 
 #contingut{
   border-top: solid 1px #e6e8eb;
-
+  overflow: hidden;
 }
 
 #menu ul{
@@ -90,8 +92,22 @@ body{
   border: solid 1px #CCC;
   margin: 10px 0;
   border-radius: 3px;
-
+  float: left;
+  clear: left;
 }
+
+.dreta{
+  width: 513px;
+  border: solid 1px #CCC;
+  margin: 10px 0;
+  border-radius: 3px;
+  padding: 0px;
+  float: right;
+  position: relative;
+  top: -635px;
+}
+
+
 
 .esquerra h4{
   background-color: yellow;
@@ -135,7 +151,7 @@ body{
   background-position: 0 -48px;
 }
 #amics li{
-
+text-shadow: 0 0 2px black;
 }
 
 #presentacio .estudis{
@@ -215,6 +231,154 @@ body{
   background-image: url(../img/profiles/f9.jpg);
 }
 
+#a01{
+  background-image:url(https://jsanchis2018.github.io/MP08/s2m8uf103_sanchis/img/perfil.jpg);
+}
+
+#a02{
+  background-image:url(https://jsanchis2018.github.io/MP08/s2m8uf103_sanchis/img/perfil.jpg);
+}
+#a02{
+  background-image:url(https://sestall2018.github.io/MP08/s2m8uf103_estall/img/perfil.jpg)
+}
+#a03{
+  background-image:url(https://npedraza2018.github.io/MP08/s2m8uf103_pedraza/img/perfil.jpg)
+}
+#a04{
+  background-image:url(https://ielmajidi2018.github.io/MP08/s2m8uf103_elmajidi/img/perfil.jpg)
+}
+#a05{
+  background-image:url(https://calvarez2018.github.io/MP08/s2m8uf103_alvarez/img/perfil.jpg)
+
+}
+
+
+#a06{
+  background-image:url(https://jricart2018.github.io/MP08/s2m8uf103_ricart/img/perfil.jpg)
+}
+#a07{
+  background-image:url(https://acalvo2018.github.io/MP08/s2m8uf103_calvo/img/perfil.jpg)
+}
+#a08{
+  background-image:url(https://aganoza2018.github.io/MP08/s2m8uf103_ganoza/img/perfil.jpg)
+}
+#a09{
+  background-image:url(https://amanchon2018.github.io/MP08/s2m8uf103_manchon/img/perfil.jpg)
+}
 .esquerra ul{
 margin-top: 20px;
+}
+
+#amics ul li{
+  background-color: green;
+  display: block;
+  width: 99px;
+  height: 99px;
+  margin: 4px;
+  float: left;
+  background-size: 99px 99px;
+  line-height: 178px;
+  text-indent: 5px;
+  color: #FFF;
+
+}
+
+#amics ul{
+  overflow:hidden; /*anti texto desbordado*/
+  margin: 0;
+  padding: 0;
+}
+
+#pensa ul{
+  height: 40px;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+  border-right: #CCC;
+
+}
+
+#pensa ul li{
+  float: left;
+  margin: 5px 0px 0px 35px;
+  border-right: solid 1px grey;
+}
+
+#pensa ul li a{
+  display: block;
+  height: 35px;
+}
+
+#pensa div{
+  height: 40px;
+  background-color: cyan;
+  margin: 0;
+  padding: 0;
+
+}
+
+#pensa div input{
+  height: 36px;
+  width: 509px;
+  margin: 0;
+  padding: 0;
+
+}
+
+#pensa ul li a:hover{
+  background-image: url(../img/select.gif);
+  background-repeat: no-repeat;
+  background-position: 50% 30px;
+}
+
+#icoestat {
+  list-style-image:url("../img/post.png");
+
+}
+
+#icofoto {
+  list-style-image:url("../img/post_foto.png");
+
+}
+
+#icoevent {
+  list-style-image:url("../img/post_fitxer.png");
+}
+
+/*---------estils del mur----*/
+h5{
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  height: 10px:
+  padding: 5px:
+}
+
+h6{
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  height: 10px:
+  padding: 5px:
+}
+
+.postintro{
+  margin-left: ;
+  padding: 10px 10px 10px 50px;
+  background-image: url("../img/perfil.jpg");
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: 5px 10px;
+}
+
+.post img, .post iframe .post p{
+  font-size: 10px;
+  padding: 10px;
+  width: 493px;
+  height: auto;
+}
+
+#entrada1 p, #entrada2 p{
+  margin: 15px;
+  padding: 0px;
 }
